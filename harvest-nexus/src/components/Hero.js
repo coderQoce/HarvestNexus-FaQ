@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../images/faq.jpg";
-
+// import logo from "../images/logo.avif";
 export default function Hero() {
   return (
     <section className="hero-wrapper py-5">
@@ -70,7 +70,7 @@ export default function Hero() {
         }
 
         .slant-image img {
-          transform: rotate(-5deg);
+          transform: rotate(-20deg);
           transition: transform 0.3s ease;
         }
 
