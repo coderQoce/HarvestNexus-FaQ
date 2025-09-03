@@ -30,7 +30,6 @@ export default function Hero() {
             />
           </div>
 
-         
           <div className="col-md-4 slant-right">
             <p className="text-muted">
               We empower farmers by connecting them directly with buyers,
@@ -62,21 +61,19 @@ export default function Hero() {
           color: #166534;
         }
 
-       
         .slant-left {
-          transform: rotate(10deg);
+          transform: rotate(-3deg);
         }
 
         .slant-right {
-          transform: rotate(10deg);
+          transform: rotate(3deg);
         }
 
         .slant-image img {
-          transform: rotate(-10deg);
+          transform: rotate(-5deg);
           transition: transform 0.3s ease;
         }
 
-        
         .slant-image img:hover {
           transform: rotate(0deg) scale(1.05);
         }
@@ -84,13 +81,6 @@ export default function Hero() {
         @media (max-width: 768px) {
           .hero-title {
             font-size: 3rem;
-          }
-
-         
-          .slant-left,
-          .slant-right,
-          .slant-image img {
-            transform: none !important;
           }
         }
       `}</style>
