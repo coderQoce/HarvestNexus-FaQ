@@ -1,6 +1,6 @@
 import React from "react";
-import logo from "../images/faq.jpg";
-// import logo from "../images/logo.avif";
+
+import logo from "../images/logo.avif";
 export default function Hero() {
   return (
     <section className="hero-wrapper py-5">
@@ -9,7 +9,7 @@ export default function Hero() {
 
         <h1 className="hero-title fw-bold text-dark mb-5">
           Let&apos;s talk about <br />
-          <span className="text-green-deep">HarvestHub</span>
+          <span className="text-green-deep">HarvestNexus</span>
         </h1>
 
         <div className="row align-items-center text-center text-md-start">
@@ -70,7 +70,7 @@ export default function Hero() {
         }
 
         .slant-image img {
-          transform: rotate(-20deg);
+          transform: rotate(-7deg);
           transition: transform 0.3s ease;
         }
 

@@ -28,7 +28,7 @@ export default function Navbar() {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link active fw-semibold" href="#home">
+              <a className="nav-link fw-semibold" href="#home">
                 Home
               </a>
             </li>

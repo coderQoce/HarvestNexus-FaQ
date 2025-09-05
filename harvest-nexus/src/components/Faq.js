@@ -10,21 +10,6 @@ export default function Faq() {
         "Harvest Nexus is a platform that connects farmers, buyers, and stakeholders to streamline agricultural processes and improve transparency.",
     },
     {
-      question: "How do I create an account?",
-      answer:
-        "Click on the sign-up button at the top of the page, fill in your details, and verify your email to start using Harvest Nexus.",
-    },
-    {
-      question: "Is Harvest Nexus free to use?",
-      answer:
-        "Yes! Harvest Nexus offers free access to core features. Some advanced features may require a subscription.",
-    },
-    {
-      question: "How secure is my data?",
-      answer:
-        "We use advanced encryption and follow strict data protection policies to ensure your information remains safe and private.",
-    },
-    {
       question: "Can I access Harvest Nexus on mobile?",
       answer:
         "Yes, our platform is fully responsive and works seamlessly on mobile devices, tablets, and desktops.",
@@ -33,6 +18,21 @@ export default function Faq() {
       question: "How do I get support?",
       answer:
         "You can reach out via our Contact page or use the in-app support chat for quick assistance.",
+    },
+    {
+      question: "Is Harvest Nexus free to use?",
+      answer:
+        "Yes! Harvest Nexus offers free access to core features. Some advanced features may require a subscription.",
+    },
+     {
+      question: "What type of data analytics will be available in the first release?",
+      answer:
+        "Basic reports on produce availability, pricing trends, and demand insights.More advanced analytics will come later.",
+    },
+    {
+      question: "Would Harvest Nexus have an offline mode for data entry?",
+      answer:
+        "Yesm offline access will be through USSd codes and SMS alerts, since a fully offline app iosn't feasible.",
     },
   ];
 
